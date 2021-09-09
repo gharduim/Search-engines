@@ -1,6 +1,6 @@
 # Search-engines
 
-## Homework - Activities 1
+Homework - Activities 1
 
 ## Short description
 
