@@ -1,59 +1,85 @@
-/*universal selector*/
+/*universal selector - defines the whole page with box-sizing to border-box, padding to default and margin to default*/
 * {
+    /*Defines how the width and height of an element are calculated*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/* Tag selector */
+
+/* Tag selector - defines the background color of the body of the webpage */
 body {
-    /* Makes the body background change the color */
+    /* Sets the background color of the element. */
     background-color: #d9dcd6;
 }
-/* Class selector */
+
+/* Class selector - Defines the characteristics of the header element*/
 .header {
+    /*Set the padding for all four sides of the element */
     padding: 20px;
+    /* Specifies the font */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Sets the background color of the element. */
     background-color: #2a607c;
+    /* Sets the color of the element*/
     color: #ffffff;
     
 }
 
+/* Class selector - Defines the characteristics of the H1 element inside the header*/
 .header h1 {
+    /*Displays a <h1> element as an inline-level block container.*/
     display: inline-block;
+    /*Specifies the font size of text the <h1> element*/
     font-size: 48px;
 }
 
+/* Class selector */
 .header h1 .seo {
+    /* Sets the color of the <seo> element*/
     color: #d9dcd6;
 }
 
-
+/* Class selector - Defines the characteristics of the div element inside the header*/
 .header div {
+    /*Set the top padding for a <div> element to 15 pixels*/
     padding-top: 15px;
+    /* Set the right margin for an element to 20 pixels*/
     margin-right: 20px;
+    /* The element floats the right of its container*/
     float: right;
+    /* Specifies the font of the class */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*Specifies the font size of text*/
     font-size: 20px;
 }
 
+/* Class selector - Defines the characteristics of the unordered list tag */
 .header div ul {
+    /* Specifies the type of list-item marker in a list. */
     list-style-type: none;
 }
 
+/* Class selector - Defines a list item*/
 .header div ul li {
     display: inline-block;
+    /* Set the left margin for an element to 25 pixels */
     margin-left: 25px;
 }
 
+/* Tag selector */
 a {
+    /* Sets the color of the element */
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Tag selector */
 p {
+    /*Specifies the font size of text the <p> tag. */
     font-size: 16px;
 }
 
+/* Class selector - this class sets a background-image with width to 100%, height to 800 pixels, and bottom margin to 25 pixels */
 .hero {
     height: 800px;
     width: 100%;
@@ -63,74 +89,113 @@ p {
     background-position: center;
 }
 
+/* Class selector */
 .float-left {
+    /* The element floats to the left of its container*/
     float: left;
+    /* Set the right margin for an element to 25 pixels*/
     margin-right: 25px;
 }
 
+/* Class selector */
 .float-right {
+    /* The element floats the right of its container*/
     float: right;
+    /* Set the left margin for an element to 25 pixels*/
     margin-left: 25px;
 }
 
+/* Class selector - */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Class selector */
 .benefits {
+    /* Set the right margin for an element to 20 pixels*/
     margin-right: 20px;
+    /*Set the padding for all four sides of an element to 20 pixels*/
     padding: 20px;
+    /* The element is pushed below both left and right floated elements */
     clear: both;
+    /* The element floats the right of its container*/
     float: right;
     width: 20%;
     height: 100%;
+    /* Specifies the font */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Sets the background color */
     background-color: #2589bd;
 }
 
+/* Class selector */
 .benefit {
+    /* Sets the bottom margim*/
     margin-bottom: 32px;
+    /* Sets the color of the element*/
     color: #ffffff;
 }
 
+/* Class selector */
 .benefit-lead h3 {
+    /* Sets the bottom margim*/
     margin-bottom: 10px;
+    /* Specifies the horizontal alignment of text in an element.*/
     text-align: center;
 }
 
+/* Class selector */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Class selector */
 .container1 {
+    /* Sets the bottom margim*/
     margin-bottom: 20px;
+    /*Set the padding for all four sides of an element */
     padding: 50px;
     height: 300px;
+    /* Specifies the font */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Sets the background color of an element. */
     background-color: #0072bb;
+    /* Sets the color of the element*/
     color: #ffffff;
 }
 
-.container2 img {   
+/* Class selector */
+.container1 img {   
+    /* defines the maximum height of an element */
     max-height: 200px;
 }
 
-.container3 h2 {
+/* Class selector */
+.container1 h2 {
+    /* Sets the bottom margim*/
     margin-bottom: 20px;
+    /*Specifies the font size of text*/
     font-size: 36px;
 }
 
+/* Class selector */
 .footer {
+    /*Set the padding for all four sides of the element footer */
     padding: 30px;
+    /* The element is pushed below both left and right floated elements */
     clear: both;
+    /* Specifies the font of the element footer*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Specifies the horizontal alignment of text in the element footer.*/
     text-align: center;
 }
 
+/* Class selector */
 .footer h2 {
+    /*Specifies the font size of text, the element <h2>*/
     font-size: 20px;
 }
